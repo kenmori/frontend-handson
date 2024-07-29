@@ -1,10 +1,13 @@
-# [Issue No.](https://github.com/kenmori/handsonFrontend/blob/master/work/markup/1.md#)
+# [Issue No.](課題リンクコピーして貼り付け)
 - レビュワーのために実際の問題文をある程度日本語で書く
-## [StackBlitz](リンク)
+
+## StackBlitz
 [StackBlitz](リンク)
+↓プレビュー
+[StackBlitz](リンク)
+
 ## Concerns and areas to focus on
 - 実装上、不安なところ、重点的に見てもらいたいところ
-- 該当箇所のコミットリンクなど
 
 ## 今回実装した仕様
 ## 前回実装した仕様
