@@ -4,7 +4,7 @@ const fragment = document.createDocumentFragment();
 
 const contents = [
   { href: 'a1.html', src: '/img/bookmark.png', text: 'a1' },
-  { href: 'a2.html', src: '/img/bookmark.png', text: 'a2' }
+  { href: 'a2.html', src: '/img/message.png', text: 'a2' }
 ];
 
 for(var i = 0; i < contents.length; ++i){
