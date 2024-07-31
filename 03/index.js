@@ -7,7 +7,7 @@ const contents = [
   { href: 'a2.html', src: '/img/message.png', text: 'a2' }
 ];
 
-for(var i = 0; i < contents.length; ++i){
+for(let i = 0; i < contents.length; ++i){
   const image = document.createElement('img');
   const anchor = document.createElement('a');
   const li = document.createElement('li');
