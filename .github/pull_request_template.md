@@ -3,8 +3,6 @@
 
 ## StackBlitz
 [StackBlitz](リンク)
-↓プレビュー
-[StackBlitz](リンク)
 
 ## Concerns and areas to focus on
 - 実装上、不安なところ、重点的に見てもらいたいところ
