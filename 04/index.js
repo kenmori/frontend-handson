@@ -13,7 +13,7 @@ contents.forEach ((content)=> {
 
   image.src = content.img;
   image.alt = content.alt;
-  anchor.href = "/" + content.to;
+  anchor.href = `./${content.to}`;
 
   fragment.appendChild(li)
           .appendChild(anchor)
