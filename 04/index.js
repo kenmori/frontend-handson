@@ -6,7 +6,7 @@ const contents =   [
     { to: "message.html", img: "2.png", alt: "画像2", text: "メッセージ" },
 ];
 
-contents.forEach ((content)=> {
+contents.forEach (content => {
   const image = document.createElement('img');
   const anchor = document.createElement('a');
   const li = document.createElement('li');
