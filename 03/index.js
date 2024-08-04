@@ -1,30 +1,29 @@
-//get:ID='js-lists'
+
 const ul = document.getElementById('js-lists');
-//create <li>
-const li = document.createElement('li');
+const fragment = document.createDocumentFragment();
 
-//create <img>
-const image = document.createElement('img');
-//add src attribute
-image.src = 'bookmark.png';
-//add alt attribute
-image.alt = 'ブックマーク';
+const contents = [
+  { href: 'a1.html', src: '/img/bookmark.png', text: 'a1' },
+  { href: 'a2.html', src: '/img/message.png', text: 'a2' }
+];
 
-//create <a>
-const link = document.createElement('a');
-//add href attribute
-link.href = '1.html';
+for(let i = 0; i < contents.length; i++){
+  const image = document.createElement('img');
+  const anchor = document.createElement('a');
+  const li = document.createElement('li');
 
-//add img to <a>
-link.appendChild(image);
+  const content = contents[i];
 
-//create text 
-const text = 'これです';
-//Add text after the last child element within the <a> element
-link.insertAdjacentHTML("beforeend",text);
+  image.src = content.src;
+  anchor.href = content.href;
 
-//add link to li
-li.appendChild(link);
+  li
+  .appendChild(anchor)
+  .appendChild(image);
 
-//add li to ul
-ul.appendChild(li);
+  anchor.insertAdjacentHTML('beforeend',content.text);
+
+  fragment.appendChild(li);
+}
+
+ul.appendChild(fragment);
