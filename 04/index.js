@@ -7,9 +7,9 @@ const contents =   [
 ];
 
 contents.forEach ((content)=> {
-  let image = document.createElement('img');
-  let anchor = document.createElement('a');
-  let li = document.createElement('li');
+  const image = document.createElement('img');
+  const anchor = document.createElement('a');
+  const li = document.createElement('li');
 
   image.src = content.img;
   image.alt = content.alt;
