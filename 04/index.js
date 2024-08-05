@@ -19,6 +19,12 @@ contents.forEach (content => {
           .appendChild(anchor)
           .appendChild(image)
           .insertAdjacentText('afterend',content.text);
+
+  // Haru told me↓↓
+  // anchor.textContent = content.text
+  // fragment.appendChild(li)
+  //         .appendChild(anchor)
+  //         .insertAdjacentElement('afterbegin',img);
 })
 
 ul.appendChild(fragment);
